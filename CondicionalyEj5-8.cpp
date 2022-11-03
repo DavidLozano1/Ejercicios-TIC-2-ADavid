@@ -22,7 +22,7 @@ int main(){
 		
 	}else{
 		//mostrar que el numero es 0
-		cout<<"Numero es 0"<<endl;
+		cout<<"Error!!, no se puede dividir entre cero"<<endl;
 		
 	}
 	
