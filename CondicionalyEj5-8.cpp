@@ -7,15 +7,21 @@ int main(){
 	
 	//Ejemplo de condicional
 	cout<<"----Ejemplo condicional----"<<endl;
+	//Declaro la variable numero
 	int num;
-	cout<<"Ingrese un numero: "; cin>>num;
+	//Muestro por pantalla el mensaje
+	cout<<"Ingrese un numero: "; cin>>num;//guardo numero ingresado en la variable num
+	//eleccion
 	if(num<0){
+		//mostrar num es negativo
 		cout<<num<<" es negativo"<<endl;
 		
 	}else if(num>0){
+		//mostrar num es positivo
 		cout<<num<<" es positivo"<<endl;
 		
 	}else{
+		//mostrar que el numero es 0
 		cout<<"Numero es 0"<<endl;
 		
 	}
